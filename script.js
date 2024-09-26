@@ -73,7 +73,7 @@ document.getElementById('quizForm').addEventListener('submit', function (event) 
     localStorage.setItem('student_' + student.rollNumber, JSON.stringify(student));
 
             // Redirect to the 4th website (Admin marks view)
-            window.location.href = "4th_website_admin.html"; 
+            window.location.href = "https://a80896b0-6d0b-47d7-82e0-52bc989096a1-00-1eg4giqo1k1k9.pike.replit.dev/"; 
 
 
     // Optionally reset the form after submission
