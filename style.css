@@ -170,27 +170,19 @@ div{
   background-color: white;
   border-radius: 20px;
 }
-.btn{
-  font-family: "Roboto",sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  background: #1E90FF;
-  width: 1560px;
-  padding: 20px;
-  text-align: center;
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
   text-decoration: none;
-  text-transform: uppercase;
-  color: #fff;
   border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.03s;
-  -webkit-transtion-property: box-shadow, transform;
-  transition-property: box-shadow, transform;
 }
-.btn:hover, .btn:focus, .btn:active{
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+
+.btn:hover {
+  background-color: #0056b3;
 }
